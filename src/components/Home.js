@@ -299,7 +299,7 @@ function Home() {
   <div class="event">
     <div class="date-time animate-left">
         <br/>
-      <p class="gr"><b>Day</b></p>
+      <p class="gr llf"><b>Day</b></p>
       <p class="llf">3:00 PM</p>
     </div>
     <div class="event-details animate-right">
@@ -332,7 +332,7 @@ function Home() {
   </div>
 <div class="right-block1 animate-right">
   <br/>
-    <p class="lef"><b>Address:</b></p>
+    <p class="lef llf"><b>Address:</b></p>
     <p class="llf">Join us as we take over the lobby/party space at the Residence Inn across the parking lot from the Holiday Inn; light snacks, beer, and wine will be provided</p>
 </div>
 </div>

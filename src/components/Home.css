@@ -142,7 +142,8 @@
     color: rgb(245, 140, 95);
 }
 .llf{
-    text-align: left;
+  text-align: left;
+  padding-left: 40px;
 }
 .pp{
     padding-top: 1%;
