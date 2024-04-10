@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="navbar sticky-top navbar-expand-lg  justify-content-center">
       <div className="container">
         <a className="navbar-brand" >
-        <img src={dn} width="150px" height="45" alt="logo"/>
+        <img src={dn} width="150px" alt="logo"/>
         </a>
         <button
           className="navbar-toggler"
