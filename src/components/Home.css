@@ -1,0 +1,329 @@
+/* CSS for making the layout responsive */
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .img {
+    height: auto; /* Reset height for smaller screens */
+  }
+  
+  .left-block, .right-block {
+    width: 100%; /* Full width for smaller screens */
+    padding-right: 0; /* Remove padding for smaller screens */
+  }
+  
+  .containerclg {
+    flex-direction: column; /* Stack blocks vertically on smaller screens */
+  }
+  
+  .image-wrapper {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Target only the .container div with a unique class name */
+.unique-container {
+    display: flex;
+  }
+  
+  /* Target only the .bride-row and .groom-row divs within .unique-container */
+  .unique-container .bride-row,
+  .unique-container .groom-row {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Target only the .image-wrapper divs within .unique-container */
+  .unique-container .image-wrapper {
+    width: calc(50% - 20px); /* 50% width with space for margin */
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Target only the img elements within .unique-container .image-wrapper */
+  .unique-container .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Target only the .image-text elements within .unique-container */
+  .unique-container .image-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .bride-section,
+.groom-section {
+  margin-bottom: 20px; /* Add spacing between sections if needed */
+}
+  
+/* Centered text */
+.img1{
+    width:100%;
+}
+.img2{
+    height: 600px;
+}
+.libreak{
+    width: auto;
+    height: auto;
+}
+.left{
+    width: 170px;
+    height: 170px;
+    margin-right:15px;
+}
+.cen{
+
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.top{
+    font-size: 30px;
+    color: purple;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-left {
+  opacity: 0;
+}
+
+.animate-right {
+  opacity: 0;
+}
+
+.animate-left.animate {
+  animation: slideInLeft 1s ease-out;
+  opacity: 1;
+}
+
+.animate-right.animate {
+  animation: slideInRight 1s ease-out;
+  opacity: 1;
+}
+.lef{
+    text-align: left;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 0px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.llc{
+    text-align: left;
+    color: rgb(245, 140, 95);
+}
+.llf{
+    text-align: left;
+}
+.pp{
+    padding-top: 1%;
+    font-size: 16px;
+    color: white;
+}
+.pp1{
+    padding-top: 0%;
+    font-size: 22px;
+    color: white;
+}
+.navbar-nav .nav-link[href="/"],
+.navbar-nav .nav-link[href="#thebrideandgroom"],
+.navbar-nav .nav-link[href="#weddingparty"],
+.navbar-nav .nav-link[href="#weddingdetails"],
+.navbar-nav .nav-link.dropdown-toggle[href="/gallery"],
+.navbar-nav .dropdown-item[href="/bride"],
+.navbar-nav .dropdown-item[href="/groom"]{
+  color: gold;
+}
+
+.map{
+    width: 100%;
+    height: auto;
+}
+.containerclg{
+    display: flex;
+    position: relative;
+    text-align: center;
+  }
+  
+  .left-block {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-block1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  
+  .clo {
+    background-color: gray; /* Just for visualization */
+    padding: 20px
+  }
+  
+  .clg {
+    background-color: rgb(120, 208, 194); /* Just for visualization */
+    padding: 20px;
+    margin-top: 0px; /* Adjust as needed */
+  }
+  .clg1 {
+    background-color: rgb(120, 208, 194); /* Just for visualization */
+    padding: 10px;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+.gr{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(150, 214, 199);
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #42f54b, 0 0 40px #42f54b, 0 0 50px #42f54b, 0 0 60px #42f54b, 0 0 70px #42f54b;
+    }
+    
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #88f0a2, 0 0 40px #adfd85, 0 0 50px #adfd85, 0 0 60px #adfd85, 0 0 70px #adfd85, 0 0 80px #adfd85;
+    }
+}
+
+.image-container {
+    display: flex;
+  }
+  
+  .image-wrapper {
+    width: 50%; /* Each image wrapper takes up 50% of the screen width */
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
+    padding: 0 10px; /* Adjust padding as needed */
+  }
+  
+  .image-wrapper img {
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .image-text {
+    margin-top: 10px; /* Adjust the space between image and text */
+    text-align: center;
+  }
+  
+  .event-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .date-time {
+    flex: 1;
+  }
+  
+  .event-details {
+    flex: 3;
+  }
+  
+  .date-time h2,
+  .date-time h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .event-details h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .event-details p {
+    margin: 0;
+  }
+  
+
+  div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: lightpink;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    
+  }
+
+  .parallax {
+    width: 100%;
+    /* The image used */
+    background-image: url("../images/nature.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }

@@ -1,0 +1,20 @@
+.ttl {
+    font-family: "Pinyon Script", cursive; /* Specify font name without HTML entity encoding */
+    color: rgb(145, 106, 95);
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.43;
+    letter-spacing: normal;
+    font-size: 42px;
+}
+.navbar a:hover {
+    border-bottom: 3px solid gold;
+  }
+
+.navbar{
+    background-color: white;
+}
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Merriweather', cursive;
+}

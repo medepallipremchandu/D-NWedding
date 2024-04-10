@@ -1,0 +1,44 @@
+/* Unique CSS for specific page */
+.page-specific .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.container1{
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+/* Create four equal columns that sit next to each other */
+.page-specific .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.page-specific .container1 {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.page-specific .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two-column layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .page-specific .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .page-specific .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
