@@ -14,6 +14,7 @@ function GroomGallery(){
     return(
         <>
         <br/>
+        <br/>
 <div class="container1">
 <div class="page-specific">
 <div class="row">

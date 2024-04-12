@@ -65,7 +65,7 @@
     width:100%;
 }
 .img2{
-    height: 600px;
+    height: 683px;
 }
 .libreak{
     width: auto;
@@ -80,15 +80,24 @@
 
     text-align: center;
     font-size: 30px;
-    color: gold;
     font-family: "Rubik Glitch Pop", system-ui;
-  font-weight: 400;
-  font-style: normal;
 }
-.top{
-    font-size: 30px;
-    color: purple;
+.rr{
+  text-align: right;
+  color: gray;
 }
+
+.lf{
+  text-align: left;
+  color: gray;
+}
+.bdtn{
+  color: #34c7a9;
+  background-color: #34c7a9;
+  border: #34c7a9;
+  border-color: #34c7a9;
+}
+
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);
@@ -142,27 +151,26 @@
     color: rgb(245, 140, 95);
 }
 .llf{
-  text-align: left;
-  padding-left: 40px;
+    text-align: left;
+    padding-left: 40px;
 }
 .pp{
     padding-top: 1%;
     font-size: 16px;
     color: white;
 }
+.ppr{
+  padding-top: 1%;
+  font-size: 120px;
+  color: white;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .pp1{
     padding-top: 0%;
     font-size: 22px;
     color: white;
-}
-.navbar-nav .nav-link[href="/"],
-.navbar-nav .nav-link[href="#thebrideandgroom"],
-.navbar-nav .nav-link[href="#weddingparty"],
-.navbar-nav .nav-link[href="#weddingdetails"],
-.navbar-nav .nav-link.dropdown-toggle[href="/gallery"],
-.navbar-nav .dropdown-item[href="/bride"],
-.navbar-nav .dropdown-item[href="/groom"]{
-  color: gold;
 }
 
 .map{
@@ -219,22 +227,22 @@
   }
 
   .glow {
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-    animation: glow 1s ease-in-out infinite alternate;
+    font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #42f54b, 0 0 40px #42f54b, 0 0 50px #42f54b, 0 0 60px #42f54b, 0 0 70px #42f54b;
-    }
-    
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #88f0a2, 0 0 40px #adfd85, 0 0 50px #adfd85, 0 0 60px #adfd85, 0 0 70px #adfd85, 0 0 80px #adfd85;
-    }
-}
-
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} 
 .image-container {
     display: flex;
   }
@@ -294,11 +302,13 @@
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-    background-color: lightpink;
+    background-color: #EDF5F7;
   }
   
   div.scroll-container img {
     padding: 10px;
+    width: 250px;
+    height: 250px;
     
   }
 
@@ -328,3 +338,315 @@
     font-weight: 700;
     font-style: normal;
   }
+
+  /* Custom CSS for the about section */
+
+.section-title {
+  margin-bottom: 50px; /* Adjust the margin bottom as needed */
+}
+
+.section-title h6 {
+  font-size: 20px; /* Adjust the font size of the section title */
+}
+
+.section-title h1 {
+  font-size: 48px; /* Adjust the font size of the main title */
+}
+
+.section-title i {
+  font-size: 24px; /* Adjust the font size of the heart icon */
+}
+
+/* Style for Groom and Bride section */
+.row.m-0 {
+  margin-bottom: 50px; /* Adjust the margin bottom for the row */
+}
+
+.col-md-6 {
+  position: relative; /* Adjust the minimum height of the column */
+}
+
+.col-md-6 img.position-absolute {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.h-100.d-flex {
+  height: 100%;
+}
+
+.cl {
+  background-color: #EDF5F7; /* Background color for the content */
+}
+.bg-secondary{
+  background-color: #EDF5F7;
+}
+
+.bg-secondary h3 {
+  color: black; /* Color for the heading */
+}
+
+.bg-secondary p {
+  color: gray; /* Color for the paragraph */
+}
+
+.bg-secondary .font-weight-normal {
+  font-size: 18px; /* Adjust the font size for the bride and groom names */
+  color: gray; /* Color for the names */
+}
+
+.bg-secondary .position-relative a.btn {
+  margin-right: 10px; /* Adjust the margin between social buttons */
+}
+
+/* Style for social buttons */
+.bg-secondary .position-relative a.btn i {
+  font-size: 20px; /* Adjust the font size for the social icons */
+}
+
+a.btn.btn-square { /* Border color for the social buttons */
+  color: gold; /* Text color for the social buttons */
+}
+
+a.btn.btn-square:hover { /* Background color on hover for the social buttons */
+  color: #34c7a9; /* Text color on hover for the social buttons */
+}
+a.btn { /* Border color for the social buttons */
+  color: gold; /* Text color for the social buttons */
+}
+
+a.btn:hover{
+  color: #34c7a9;
+}
+li.btn.button { /* Border color for the social buttons */
+  color: gold; /* Text color for the social buttons */
+}
+
+li.btn.button:hover{
+  color: #34c7a9;
+}
+/* Add your additional custom styles here */
+/* Custom CSS for the event section */
+
+#event {
+  padding-top: 100px; /* Adjust the top padding as needed */
+  padding-bottom: 100px; /* Adjust the bottom padding as needed */
+}
+
+.section-title h6 {
+  font-size: 20px; /* Adjust the font size of the section title */
+}
+
+.section-title h1 {
+  font-size: 48px; /* Adjust the font size of the main title */
+}
+
+.section-title i {
+  font-size: 0px; /* Adjust the font size of the heart icon */
+}
+
+.row.justify-content-center {
+  margin-bottom: 0px; /* Adjust the margin bottom for the centered row */
+}
+
+.col-md-6.border-right.border-primary {
+  border-right: px solid brown; /* Border color for the first column */
+}
+
+.col-md-6.border-right.border-primary:last-child {
+  border-right: none; /* Remove border from the last column */
+}
+
+.col-md-6 .text-center.text-md-right,
+.col-md-6 .text-center.text-md-left {
+  margin-bottom: 0px; /* Adjust the margin bottom for the text content */
+}
+
+.col-md-6 .text-center.text-md-right img,
+.col-md-6 .text-center.text-md-left img {
+  margin-bottom: 0px; /* Adjust the margin bottom for the images */
+}
+
+.col-md-6 h4 {
+  font-size: 24px; /* Adjust the font size for the event titles */
+  margin-bottom: 0px; /* Adjust the margin bottom for the event titles */
+}
+
+.col-md-6 p {
+  margin-bottom: 0px; /* Adjust the margin bottom for the event details */
+}
+
+/* Add your additional custom styles here */
+.font-secondary{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Styles for the story section */
+
+.section-title h1 {
+  color: #333; /* Set title color */
+}
+
+.timeline .row {
+  margin-bottom: 30px; /* Add space between rows */
+}
+
+.timeline .col-md-6 {
+  padding: 0; /* Remove default padding */
+}
+
+.timeline img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.timeline .h-100 {
+  min-height: 200px; /* Set minimum height for content */
+  padding: 20px; /* Add padding to content */
+  border-radius: 5px; /* Add border radius *//* Set background color */
+}
+
+.timeline h4 {
+  color: #333; /* Set heading color */
+}
+
+.timeline p {
+  color: #666; /* Set paragraph color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline .row {
+    flex-direction: column; /* Stack columns on small screens */
+  }
+
+  .timeline .col-md-6 {
+    padding: 15px; /* Adjust padding for small screens */
+  }
+}
+
+
+/* Styles for the story section */
+#story {/* Set background color */
+  padding-top: 5rem; /* Adjust top padding */
+  padding-bottom: 3rem; /* Adjust bottom padding */
+}
+
+.section-title h1 {
+  color: #333; /* Set title color */
+}
+
+.section-title i {
+  font-size: 24px; /* Adjust icon size */
+}
+
+.timeline .row {
+  margin-bottom: 30px; /* Add space between rows */
+}
+
+.timeline .col-md-6 {
+  padding: 0; /* Remove default padding */
+}
+
+.timeline img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.timeline .h-100 {
+  min-height: 200px; /* Set minimum height for content */
+  padding: 20px; /* Add padding to content */
+  border-radius: 5px; /* Add border radius */
+  background-color: #EDF5F7; /* Set background color */
+}
+
+.timeline h4 {
+  color: #333; /* Set heading color */
+}
+
+.timeline p {
+  color: #666; /* Set paragraph color */
+}
+
+/* Add vertical line */
+.timeline .row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px; /* Set width of line */
+  height: 100%;
+  background-color: #34c7a9; /* Set color of line */
+  transform: translateX(-50%); /* Center the line */
+}
+.cl1{
+  background-color: #EDF5F7;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline .row {
+    flex-direction: column; /* Stack columns on small screens */
+  }
+
+  .timeline .col-md-6 {
+    padding: 15px; /* Adjust padding for small screens */
+  }
+}
+.cc{
+  text-align: center;
+}
+.image-container {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+.image-container img {
+  transition: transform 0.5s ease; /* Adjust the duration for smoother effect */
+}
+
+.image-container:hover img {
+  transform: scale(1.1); /* Adjust the scale factor for the zoom level */
+}
+
+.button {
+  position: relative;
+  background-color: #04AA6D;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}

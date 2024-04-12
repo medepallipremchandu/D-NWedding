@@ -1,77 +1,63 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../images/logo192.png"
-import dn from "../images/dn.png"
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg  justify-content-center">
-      <div className="container">
-        <a className="navbar-brand" >
-        <img src={dn} width="150px" alt="logo"/>
+    <nav className="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5">
+    <a href="index.html" className="navbar-brand d-block d-lg-none">
+      <h1 className="font-secondary mb-n2">
+        DasBabu <span className="text-primary">&</span> Nikitha
+      </h1>
+    </a>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div
+      className="collapse navbar-collapse justify-content-between"
+      id="navbarSupportedContent"
+    >
+      <div className="navbar-nav ml-auto py-0">
+        <a href="/" className=" nav-item nav-link active">
+          <b>HOME</b>
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarSupportedContent"
-        >
-          <ul className="navbar-nav mb-2 mb-lg-0 ">
-            <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/">
-                <b>HOME</b>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link  " aria-current="page" href="#thebrideandgroom">
-              <b>THE BRIDE AND GROOM</b>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="#weddingparty">
-              <b>THE WEDDING PARTY</b>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="#weddingdetails">
-              <b>WEDDING DETAILS</b>
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/gallery"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <b>GALLERY</b>
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="/bride">
-                    BRIDE GALLERY
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/groom">
-                    GROOM GALLERY
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+        <a href="#thebrideandgroom" className=" nav-item nav-link active">
+          <b>ABOUT</b>
+        </a>
+        <a href="#story" className=" nav-item nav-link active">
+          <b>STORY</b>
+        </a>
+        <a href="#weddingparty" className=" nav-item nav-link active">
+          <b>PARTY</b>
+        </a>
       </div>
-    </nav>
+      <a  className="navbar-brand mx-5 d-none d-lg-block">
+        <h1 className="font-secondary  mb-n2" style={{color:"#34c7a9",fontWeight:"bold", fontSize:"30px", paddingTop:"10px"}}>
+          DasBabu <span style={{color:"gray"}} >&</span> Nikitha
+        </h1>
+      </a>
+      <div className="navbar-nav mr-auto py-0">
+        <a href="#family" className=" nav-item nav-link active">
+          <b>FAMILY</b>
+        </a>
+        <a href="#weddingdetails" className=" nav-item nav-link active">
+          <b>DETAILS</b>
+        </a>
+        <a href="/bride" className=" nav-item nav-link active">
+          <b>BRIDE</b>
+        </a>
+        <a href="/groom" className=" nav-item nav-link active">
+          <b>GROOM</b>
+        </a>
+      </div>
+    </div>
+  </nav>
   );
 }
 
