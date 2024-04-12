@@ -430,7 +430,11 @@ li.btn.button:hover{
 }
 /* Add your additional custom styles here */
 /* Custom CSS for the event section */
-
+hr {
+  position: relative;
+  background-color: orange;
+  height: 2px;
+}
 #event {
   padding-top: 100px; /* Adjust the top padding as needed */
   padding-bottom: 100px; /* Adjust the bottom padding as needed */

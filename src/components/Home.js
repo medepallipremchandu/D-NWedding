@@ -305,7 +305,7 @@ function Home() {
 
     </div>
     
-<hr/>
+<hr className=" border-warning"/>
 <div class="parallax">
 <div class="section-title position-relative text-center">
     <h1 class="cen pt-5" style={{letterSpacing: "3px", color:"gold"}}><b>We Are Getting To Married In</b></h1>
@@ -424,13 +424,13 @@ function Home() {
                 <p>---------------------------------------------<i class="icon ion-heart text-dark"></i>---------------------------------------------</p>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center ">
                     <h5 class="font-weight-normal text-muted mb-3 pb-3">Diam amet lorem erat eos sit lorem elitr justo</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 border-right border-primary">
-                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                <div class="col-md-6 border-right border-warning ">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0 animate-left">
                         <img class="img-fluid mb-4" src={nature} alt=""/>
                         <h4 class="rr mb-3 font-secondary display-4 " style={{color:"#34c7a9"}}>The Reception</h4>
                         <p class="rr mb-2">123 Street, New York, USA</p>
@@ -438,7 +438,7 @@ function Home() {
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="text-center text-md-left ml-md-3">
+                    <div class="text-center text-md-left ml-md-3 animate-right">
                         <img class="img-fluid mb-4" src={nature} alt=""/>
                         <h4 class="font-secondary display-4 lf mb-2" style={{color:"#34c7a9"}}>Wedding Party</h4>
                         <p class="lf mb-2">123 Street, New York, USA</p>
@@ -450,7 +450,7 @@ function Home() {
     </div>
 <br/>
 <br/>
-<hr/>
+<hr className="border-warning"/>
 <br/>
 <img src={libreak} class="libreak" alt="..."/>
 
@@ -600,7 +600,7 @@ function Home() {
 
 <br/>
 <br/>
-<hr/>
+<hr className="border-warning"/>
 <br/>
 <br/>
 <p class="lef"><b>MAP AND DIRECTIONS</b></p>
@@ -619,7 +619,7 @@ function Home() {
 </div>
 <br/>
 <br/>
-<hr/>
+<hr className="border-warning"/>
 
 
 
