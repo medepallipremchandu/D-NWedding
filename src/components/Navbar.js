@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar fixed-top shadow-sm navbar-expand-lg py-3 py-lg-0 px-lg-5">
     <a href="index.html" className="navbar-brand d-block d-lg-none">
       <h1 className="font-secondary mb-n2">
-        DasBabu <span className="text-primary">&</span> Nikitha
+        Groom <span className="text-primary">&</span> Bride
       </h1>
     </a>
     <button
