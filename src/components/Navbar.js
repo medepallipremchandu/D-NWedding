@@ -39,7 +39,7 @@ function Navbar() {
       </div>
       <a  className="navbar-brand mx-5 d-none d-lg-block">
         <h1 className="font-secondary  mb-n2" style={{color:"#34c7a9",fontWeight:"bold", fontSize:"30px", paddingTop:"10px"}}>
-          DasBabu <span style={{color:"gray"}} >&</span> Nikitha
+          Groom <span style={{color:"gray"}} >&</span> Bride
         </h1>
       </a>
       <div className="navbar-nav mr-auto py-0">
