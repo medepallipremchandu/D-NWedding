@@ -167,7 +167,7 @@ function Home() {
       <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
           <div class="p-3" style={{maxWidth: "900px"}}>
             <h1 className="display-1 font-secondary cc  mt-n3 mb-md-4" style={{color:"gold",fontWeight:"bold",paddingTop:"10px"}}>
-          DasBabu <span style={{color:"gray"}} >&</span> Nikitha
+          Groom <span style={{color:"gray"}} >&</span> Bride
         </h1>
                <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                <h3 class="text-uppercase cc font-weight-normal m-0" style={{letterSpacing: "2px", color:"purple"}}>We're getting married</h3>
@@ -184,7 +184,7 @@ function Home() {
        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
           <div class="p-3" style={{maxWidth: "900px"}}>
             <h1 className="display-1 font-secondary cc  mt-n3 mb-md-4" style={{color:"gold",fontWeight:"bold",paddingTop:"10px"}}>
-          DasBabu <span style={{color:"gray"}} >&</span> Nikitha
+          Groom <span style={{color:"gray"}} >&</span> Bride
         </h1>
                <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                <h3 class="text-uppercase cc font-weight-normal m-0" style={{letterSpacing: "2px", color:"purple"}}>We're getting married</h3>
@@ -202,7 +202,7 @@ function Home() {
         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
           <div class="p-3" style={{maxWidth: "900px"}}>
             <h1 className="display-1 font-secondary cc  mt-n3 mb-md-4" style={{color:"gold",fontWeight:"bold",paddingTop:"10px"}}>
-          DasBabu <span style={{color:"gray"}} >&</span> Nikitha
+          Groom <span style={{color:"gray"}} >&</span> Bride
         </h1>
                <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                <h3 class="text-uppercase cc font-weight-normal m-0" style={{letterSpacing: "2px", color:"purple"}}>We're getting married</h3>
