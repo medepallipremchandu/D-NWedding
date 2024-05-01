@@ -324,7 +324,7 @@ function Home() {
             <div class="container timeline position-relative p-0">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src={libreak} alt=""/>
+                        <img class="img-fluid mr-md-3" src={nature} alt=""/>
                     </div>
                     <div class="col-md-6 text-center text-md-left">
                         <div class=" h-100 d-flex flex-column justify-content-center p-4 ml-md-3">
@@ -346,7 +346,7 @@ function Home() {
                         </div>
                     </div>
                     <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src={libreak} alt=""/>
+                        <img class="img-fluid ml-md-3" src={nature} alt=""/>
                     </div>
                 </div>
                 <div class="section-title position-relative text-center">
@@ -354,7 +354,7 @@ function Home() {
             </div>
                 <div class="row">
                     <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src={libreak} alt=""/>
+                        <img class="img-fluid mr-md-3" src={nature} alt=""/>
                     </div>
                     <div class=" col-md-6 text-center text-md-left">
                         <div class="h-100 d-flex flex-column justify-content-center p-4 ml-md-3">
@@ -376,7 +376,7 @@ function Home() {
                         </div>
                     </div>
                     <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src={libreak} alt=""/>
+                        <img class="img-fluid ml-md-3" src={nature} alt=""/>
                     </div>
                 </div>
             </div>
